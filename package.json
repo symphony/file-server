@@ -1,0 +1,22 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "This project brings together our experience with both filesystem and networking/TCP interaction. Clients can connect to the server via TCP and send a request for a file (by filename,) the server looks for requested files locally and sends back the data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symphony/file-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symphony/file-server/issues"
+  },
+  "homepage": "https://github.com/symphony/file-server#readme",
+  "type": "module"
+}
